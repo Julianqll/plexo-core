@@ -25,7 +25,7 @@ impl Core {
             }
             Err(e) => {
                 println!("Error checking for default admin user: {}", e);
-                //podría agregarse una lógica adicional?
+                return Err(Box::new(e));
             }
             _ => {}
         }
