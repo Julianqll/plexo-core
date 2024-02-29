@@ -1,10 +1,10 @@
 [package]
 name = "plexo-core"
-version = "0.1.19"
+version = "0.1.20"
 edition = "2021"
 
 [dependencies]
-plexo-sdk = "0.4.6"
+plexo-sdk = "0.4.7"
 uuid = "1.7.0"
 chrono = "0.4.34"
 jsonwebtoken = "9.2.0"
